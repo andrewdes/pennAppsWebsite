@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>natour</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Official website of natour" />
+	<meta name="keywords" content="natour,computer vision,expo, google cloud, google vision" />
+	<meta name="author" content="natour" />
+
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- Animate -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Icomoon -->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<div id="fh5co-header">
+		<div class="container">
+			<!-- Mobile Toggle Menu Button -->
+			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+			<div id="fh5co-logo">
+				<a href="index.html">Na<span class="green">Tour</span>.</a>
+			</div>
+			<nav id="fh5co-main-nav">
+				<ul>
+					<li><a href="#" data-nav-section="home">Home</a></li>
+					<li><a href="#" data-nav-section="portfolio">Map</a></li>
+					<li><a href="#" data-nav-section="about">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div id="fh5co-main">
+		<div class="fh5co-overlay-mobile"></div>
+		<div id="fh5co-home" class="js-fullheight" data-section="home">
+
+			<div class="flexslider">
+
+				<div class="fh5co-overlay"></div>
+				<div class="fh5co-text">
+					<div class="container">
+						<div class="row text-center">
+							<h1 class="animate-box">Love nature, NaTour. </h1>
+							<div class="fh5co-go animate-box">
+								<a href="#" class="js-fh5co-next">
+									See Map
+									<span><i class="icon-arrow-down2"></i></span>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			  	<ul class="slides">
+			   	<li style="background-image: url(images/bg.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/bg2.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/bg1.jpg);" data-stellar-background-ratio="0.5"></li>
+			  	</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-portfolio" data-section="portfolio">
+			<div class="container">
+				<div class="row r-pb">
+					<div class="col-md-8 col-md-offset-2 text-center section-heading">
+						<h2 class="animate-box">Map</h2>
+						<p class="animate-box">On the map you can see which species have been spotted as well as their coordinates and a short description of the species.</p>
+						<div id="map"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="fh5co-about" data-section="about">
+			<div class="container">
+				<div class="row r-pb">
+					<div class="col-md-8 col-md-offset-2 text-center section-heading animate-box">
+						<h2>About The Developers</h2>
+						<p class="fh5co-lead">All the code required for NaTour can be found on our <a href="https://github.com/wojtczat/natour">Github</a> page! Below, you will find a detailed description of each members contributions.  </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 animate-box">
+						<div class="fh5co-text">
+							<h2>Andrew D.</h2>
+							<span class="fh5co-meta green">Google Vision, Web Dev</span>
+							<p>Used the Google Cloud Vision API for deciphering animals in the picture. Website was completed using HTML, CSS and JavaScript. Helped debug/program map and markers in React.</p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box">
+						<div class="fh5co-text">
+							<h2>Tommy W.</h2>
+							<span class="fh5co-meta green">UI, Services</span>
+							<p>Used Expo (React Native) to complete the User Interface of NaTour. Also used React Native to complete various services in NaTour such as the map, markers and camera.</p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box">
+						<div class="fh5co-text">
+							<h2>Sophia T.</h2>
+							<span class="fh5co-meta green">Firebase, React Native</span>
+							<p>Used Expo and React Native to create the information page opened up after Google Vision is completed. Also set up the firebase used to keep track of animals locations on the map.</p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box">
+						<div class="fh5co-text">
+							<h2>Graeme W.</h2>
+							<span class="fh5co-meta green">Wolfram API, React Native</span>
+							<p>Used the Wolfram API to retrieve information about animals retrieved from Google Vision. Used React Native to help implement the detailed information about the animal in the app.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div id="fh5co-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="fh5co-footer-widget">
+							<p>&copy; Natour. All Rights Reserved.</p>
+						</div>
+					</div>
+		</div>
+	</div>
+	</div> <!-- END fh5co-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZpaoR73agvY080FoD_OJcVznNNjWWcfs&callback=initMap">
+	</script>
+
+	<script>
+		function initMap() {
+
+			var dictionary = {};
+			dictionary["Platypus"] = 'A semiaquatic egg-laying  mammal endemic';
+
+			var pennapps = {lat: 39.9526, lng: -75.1933977};
+
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 6,
+				center: pennapps,
+				draggable:true
+			});
+
+			var infowindow =  new google.maps.InfoWindow({
+				content: ''
+			});
+
+			for(key in dictionary){
+				var marker = new google.maps.Marker({
+					title: key,
+					position: pennapps,
+					map: map
+				});
+
+				bindInfoWindow(marker, map, infowindow, "<p>" + dictionary[key] + "</p>");
+
+			}
+
+
+			function bindInfoWindow(marker, map, infowindow, html) {
+					google.maps.event.addListener(marker, 'click', function() {
+					infowindow.setContent(html);
+					infowindow.open(map, marker);
+				});
+
+		}
+	}
+</script>
+
+</body>
+</html>
